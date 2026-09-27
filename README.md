@@ -11,7 +11,7 @@ Pink skies, neon cities, glowing labs, on a calm charcoal background. Five 4K wa
 ![Wallpapers](https://img.shields.io/badge/wallpapers-5×_4K-f463ac?style=flat-square&labelColor=141618)
 ![License](https://img.shields.io/badge/license-MIT-f0c987?style=flat-square&labelColor=141618)
 
-![Pink Horizon desktop screenshot](preview.png)
+![Pink Horizon desktop screenshot](media/screenshot-apps.webp)
 
 </div>
 
@@ -63,9 +63,13 @@ Open the theme picker with <kbd>Super</kbd> + <kbd>Ctrl</kbd> + <kbd>Shift</kbd>
 
 ## Screenshots
 
-| Desktop | Boot / unlock screen |
+| Apps | Desktop |
 | :--: | :--: |
-| ![Desktop](preview.png) | ![Unlock screen](preview-unlock.png) |
+| ![Apps: Neovim, cliamp and Files](media/screenshot-apps.webp) | ![Clean desktop](media/screenshot-desktop.webp) |
+
+| Boot / unlock screen |
+| :--: |
+| ![Unlock screen](preview-unlock.png) |
 
 ---
 
