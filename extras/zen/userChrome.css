@@ -1,0 +1,52 @@
+/* Pink Horizon for Zen Browser — userChrome.css (browser UI) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --zen-primary-color: #ea5195 !important;
+    --zen-colors-primary: #1d2023 !important;
+    --zen-colors-secondary: #1d2023 !important;
+    --zen-colors-tertiary: #0f1112 !important;
+    --zen-colors-border: #ea5195 !important;
+    --zen-main-browser-background: #0f1112 !important;
+    --zen-themed-toolbar-bg: #0f1112 !important;
+    --toolbox-bgcolor-inactive: #0f1112 !important;
+    --toolbar-bgcolor: #1d2023 !important;
+    --toolbar-color: #e6e1e4 !important;
+    --toolbar-field-color: #e6e1e4 !important;
+    --toolbar-field-focus-color: #f9eff5 !important;
+    --toolbarbutton-icon-fill: #ea5195 !important;
+    --lwt-text-color: #e6e1e4 !important;
+    --tab-selected-textcolor: #f9eff5 !important;
+    --arrowpanel-background: #141618 !important;
+    --arrowpanel-color: #e6e1e4 !important;
+    --sidebar-text-color: #e6e1e4 !important;
+    --lwt-sidebar-text-color: #e6e1e4 !important;
+    --lwt-sidebar-background-color: #0a0b0c !important;
+    --newtab-background-color: #141618 !important;
+    --newtab-text-primary-color: #e6e1e4 !important;
+  }
+
+  #TabsToolbar,
+  hbox#titlebar,
+  #zen-appcontent-navbar-container { background-color: #0f1112 !important; }
+
+  .urlbar-background { background-color: #141618 !important; }
+  .urlbarView-url { color: #3fd6db !important; }            /* cyan URLs in the dropdown */
+  #zen-workspaces-button { background-color: #141618 !important; }
+  .sidebar-placesTree { background-color: #141618 !important; }
+
+  /* selected tab: soft teal wash with a cyan edge */
+  .tabbrowser-tab[selected] .tab-background {
+    background-color: #3a2433 !important;
+    box-shadow: inset 2px 0 0 #3fd6db !important;
+  }
+
+  /* container tab colours mapped to the palette */
+  .identity-color-blue      { --identity-tab-color: #5aa2d8 !important; --identity-icon-color: #5aa2d8 !important; }
+  .identity-color-turquoise { --identity-tab-color: #3fd6db !important; --identity-icon-color: #3fd6db !important; }
+  .identity-color-green     { --identity-tab-color: #39c2ab !important; --identity-icon-color: #39c2ab !important; }
+  .identity-color-yellow    { --identity-tab-color: #f0c987 !important; --identity-icon-color: #f0c987 !important; }
+  .identity-color-orange    { --identity-tab-color: #f39a6b !important; --identity-icon-color: #f39a6b !important; }
+  .identity-color-red       { --identity-tab-color: #f25f6b !important; --identity-icon-color: #f25f6b !important; }
+  .identity-color-pink      { --identity-tab-color: #f463ac !important; --identity-icon-color: #f463ac !important; }
+  .identity-color-purple    { --identity-tab-color: #fa99c7 !important; --identity-icon-color: #fa99c7 !important; }
+}

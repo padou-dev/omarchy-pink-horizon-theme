@@ -1,0 +1,38 @@
+/* Pink Horizon for Zen Browser — userContent.css (new tab + about: pages) */
+@media (prefers-color-scheme: dark) {
+  @-moz-document url-prefix("about:") {
+    :root {
+      --in-content-page-background: #141618 !important;
+      --in-content-page-color: #e6e1e4 !important;
+      --in-content-box-background: #1d2023 !important;
+      --color-accent-primary: #ea5195 !important;
+      --color-accent-primary-hover: #3fd6db !important;
+      --color-accent-primary-active: #6be7e3 !important;
+      --link-color: #3fd6db !important;
+      --link-color-hover: #6be7e3 !important;
+      background-color: #141618 !important;
+    }
+  }
+
+  @-moz-document url("about:newtab"), url("about:home") {
+    :root {
+      --newtab-background-color: #141618 !important;
+      --newtab-background-color-secondary: #1d2023 !important;
+      --newtab-element-hover-color: #3a2433 !important;
+      --newtab-text-primary-color: #e6e1e4 !important;
+      --newtab-wordmark-color: #3fd6db !important;
+      --newtab-primary-action-background: #ea5195 !important;
+    }
+    .card-outer:is(:hover, :focus, .active):not(.placeholder) .card-title { color: #3fd6db !important; }
+  }
+
+  @-moz-document url-prefix("about:preferences") {
+    :root {
+      --zen-colors-primary: #1d2023 !important;
+      --zen-colors-tertiary: #0f1112 !important;
+      --zen-primary-color: #ea5195 !important;
+      --in-content-text-color: #e6e1e4 !important;
+    }
+    groupbox, moz-card { background: #141618 !important; }
+  }
+}

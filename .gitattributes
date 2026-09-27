@@ -1,0 +1,4 @@
+# Keep line endings Linux-style, even when committed from Windows/WSL
+* text=auto eol=lf
+*.png binary
+*.webp binary

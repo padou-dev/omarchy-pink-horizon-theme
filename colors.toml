@@ -1,0 +1,37 @@
+# Pink Horizon — an Omarchy theme
+# Hot pink and neon cyan on a near-black charcoal background.
+mode = "dark"
+
+accent = "#ea5195"
+selection = "#3a2433"
+muted = "#6a6f75"
+
+background = "#141618"
+dark_background = "#0f1112"
+darker_background = "#0a0b0c"
+lighter_background = "#1d2023"
+
+foreground = "#e6e1e4"
+dark_foreground = "#4a4e53"
+light_foreground = "#b8b2b6"
+bright_foreground = "#f9eff5"
+
+red = "#f25f6b"
+yellow = "#f0c987"
+orange = "#f39a6b"
+green = "#39c2ab"
+cyan = "#3fd6db"
+blue = "#5aa2d8"
+magenta = "#f463ac"
+brown = "#7b2e4e"
+
+bright_red = "#ff8a93"
+bright_yellow = "#f7dcae"
+bright_green = "#6fe0c9"
+bright_cyan = "#6be7e3"
+bright_blue = "#8cc4e8"
+bright_magenta = "#fa99c7"
+
+# Window borders: hot pink fading into neon cyan
+hyprland_active_border = "rgba(ea5195ee) rgba(3fd6dbee) 45deg"
+hyprland_inactive_border = "rgba(2b2f34aa)"
